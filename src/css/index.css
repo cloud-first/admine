@@ -1,0 +1,59 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; }
+fieldset, img { border:none; }
+address, caption, cite, code, dfn, th, var { font-style:normal; font-weight:normal; }
+ul, ol {list-style:none;}
+body {font-family: "微软雅黑";}
+html,body{height: 100%;width: 100%;}
+.top{height: 100px; background-color:#081929;position: fixed;top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 20;
+}
+.wh{color: #FFFFFF;}
+.top-name{font-size: 30px;float: left;margin: 26px  0px 0px 36px;font-weight: bold;}
+.intop-rig{ float: right;margin: 30px 50px 0px 0px;}
+.intop-rig span{cursor: pointer;}
+
+
+.main{background: #081929;position: fixed;left: 0px; top: 100px; bottom: 0px;right: 0px;}
+
+.main-lef{width: 200px;float: left;height: 100%; background-color:#081929;
+position: fixed;
+top: 100px;
+}
+.inputClass{
+	width: 200px;
+}
+.navall{
+	position: fixed;
+	margin: 0;padding: 0;
+	width: 180px;
+	top: 100px;
+	left: 0
+}
+.navall li a{
+	display:block;
+	 height: 39px;
+	  line-height: 39px; 
+	  color: #FFFFFF; 
+	  border-bottom: 1px solid #2a5379; 
+	  padding-left: 30px;
+		text-decoration: none; background-color: #143554;}
+.nav_active{
+	background: #002A80;
+}
+.btn_fanhui{
+	margin-left: 20px;
+	height: 30px;
+	font-size: 12px;
+}
+
+.main-rig{margin-left: 200px; min-width: 1000px;background: #fff;min-height: 600px;overflow-x: hidden;z-index: 10;height: 100%;
+}
+.geted_btn{
+	float: right;
+}
+.rigall{min-width: 1000px;}
+
+
+
